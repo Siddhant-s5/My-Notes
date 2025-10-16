@@ -1,0 +1,182 @@
+{
+  "main": {
+    "id": "6e26e768966c6096",
+    "type": "split",
+    "children": [
+      {
+        "id": "c664c375442ec244",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cd11b437a72e2591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01 - Introduction to Deep Learning.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "01 - Introduction to Deep Learning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "88c9214821c95a8a",
+    "type": "split",
+    "children": [
+      {
+        "id": "6b57bb3d5ac17ab2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1739307ffb5e8b58",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "22793e2a93af64e2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "32d662eddc235819",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 240.5
+  },
+  "right": {
+    "id": "93809a941e46b2cf",
+    "type": "split",
+    "children": [
+      {
+        "id": "af833bd666ae267a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "08d7033244968759",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Introduction to Deep Learning.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Introduction to Deep Learning"
+            }
+          },
+          {
+            "id": "6ec9e0f0260eee81",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Introduction to Deep Learning.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Introduction to Deep Learning"
+            }
+          },
+          {
+            "id": "f458025c340e64e5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "47c0c75b4fb63a41",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Introduction to Deep Learning.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Introduction to Deep Learning"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "cd11b437a72e2591",
+  "lastOpenFiles": [
+    "02 - Perceptron.md",
+    "01 - Introduction to Deep Learning.md",
+    "Pasted image 20250706094745.png",
+    "Pasted image 20250706092454.png",
+    "Pasted image 20250630232344.png",
+    "Pasted image 20250630232118.png",
+    "Screenshot 2025-06-16 132551.png",
+    "Welcome.md"
+  ]
+}
