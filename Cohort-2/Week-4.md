@@ -13,3 +13,8 @@ In short, **JavaScript in the browser = ECMAScript + Web APIs provided by the br
 ![[Pasted image 20251005130342.png]]
 ##### ToDo
 ![[Pasted image 20251005161953.png]]
+
+#### Todo application:
+https://github.com/hkirat/todo-app
+
+- install 'React Developer Tools' chrome extension
