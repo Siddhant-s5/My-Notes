@@ -54,3 +54,9 @@ This hook runs a function when the component mounts. This can be used to run par
 - reference equality: 
 ![[Pasted image 20251222220550.png]]
 ![[Pasted image 20251222220431.png]]
+basically in simple terms, using useMemo we memorize the result of a heavy calculation (treate it as value inside a variable), but what if we have memorize a function, (in js we can store a function inside a variable, but like numbers or strings it is not able to differentiate their value, like if a=5 and b=5 then `a===b` will be true because it is comparing it by its value, if we store functions like `a= (a,b) => {return a+b}` and `b= (a,b) => {return a+b}` then `a===b` will be false even if function defination is same, because it is now comparing them with their reference, so if we use useMemo for function, it will still run that function on each render) then we use useCallback
+##### useRef:
+Suppose you have to change/override a particular thing which react rendered on the screen. The one way of doing it is by using `document` object (`document.getElementById('').innerHTML..`). This will work but is not a best practise, because you will change the value (or state), it will even reflect on the screen too, but the react will still think it as old value beacause thats what he put there, and its kind of confusing thing to the react.
+![[Pasted image 20260109221858.png]]
+So useRef basically a hook which gives us the reference of the DOM element.
+![[Pasted image 20260109222100.png]]
