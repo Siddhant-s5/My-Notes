@@ -1,61 +1,46 @@
 {
   "main": {
-    "id": "705d076af27ffb3e",
+    "id": "30153f1cec853466",
     "type": "split",
     "children": [
       {
-        "id": "7746336064ad9348",
+        "id": "eb3b6f772519dbd5",
         "type": "tabs",
         "children": [
           {
-            "id": "6bce6e36f2071259",
+            "id": "37996016ed1591e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Week-09.md",
+                "file": "01-All About Personalities.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Week-09"
-            }
-          },
-          {
-            "id": "2fe4a359415dc275",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Week-07-React.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Week-07-React"
+              "title": "01-All About Personalities"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "943b1cd193439467",
+    "id": "40dcd175fd49939b",
     "type": "split",
     "children": [
       {
-        "id": "5c199d4eddcd37c5",
+        "id": "b1539472b9f8aa8d",
         "type": "tabs",
         "children": [
           {
-            "id": "417441c8216f73f7",
+            "id": "50b62aace539e1c1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byCreatedTimeReverse",
+                "sortOrder": "alphabetical",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -63,7 +48,7 @@
             }
           },
           {
-            "id": "5d6333593b478b04",
+            "id": "b2ef1320e85287f8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -80,7 +65,7 @@
             }
           },
           {
-            "id": "0d1d308bbb052feb",
+            "id": "c50c3982fefc2eef",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -96,20 +81,20 @@
     "width": 300
   },
   "right": {
-    "id": "fa9ade7d06c18b42",
+    "id": "ca9d20fbdb8e0e1f",
     "type": "split",
     "children": [
       {
-        "id": "40b985721958e21e",
+        "id": "a3bebc5f9600c565",
         "type": "tabs",
         "children": [
           {
-            "id": "6043bab6b65dfb74",
+            "id": "155e7c1cee614de6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Week-3.md",
+                "file": "01-All About Personalities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,25 +104,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Week-3"
+              "title": "Backlinks for 01-All About Personalities"
             }
           },
           {
-            "id": "1e34984835fce06d",
+            "id": "5e30aeba30aa3daa",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Week-3.md",
+                "file": "01-All About Personalities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Week-3"
+              "title": "Outgoing links from 01-All About Personalities"
             }
           },
           {
-            "id": "c3fa47b587e85599",
+            "id": "f00d744285e8ef78",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -152,18 +137,32 @@
             }
           },
           {
-            "id": "d6bf2ee88505bb00",
+            "id": "7ddffd9834abcaa7",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "ccb42765b9c13bb3",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Week-3.md",
+                "file": "01-All About Personalities.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Week-3"
+              "title": "Outline of 01-All About Personalities"
             }
           }
         ]
@@ -175,35 +174,24 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
     }
   },
-  "active": "2fe4a359415dc275",
+  "active": "37996016ed1591e0",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Week-07-React.md",
-    "Pasted image 20260114212545.png",
-    "Pasted image 20260111140019.png",
-    "Pasted image 20260111135919.png",
-    "Pasted image 20260111134819.png",
-    "Pasted image 20260111134154.png",
-    "Pasted image 20260111133542.png",
-    "Pasted image 20260111133414.png",
-    "Pasted image 20260111132714.png",
-    "Pasted image 20260111131921.png",
-    "Pasted image 20260111131636.png",
-    "Week-07.md",
-    "Week-09.md",
-    "Week-06-React.md",
-    "Week-03.md",
-    "Week-04.md",
-    "Untitled",
-    "Welcome.md"
+    "Pasted image 20260115221255.png",
+    "Pasted image 20260115221146.png",
+    "Pasted image 20260115220907.png",
+    "Pasted image 20260115220506.png",
+    "Pasted image 20260115215504.png",
+    "Pasted image 20260115215036.png",
+    "Welcome.md",
+    "01-All About Personalities.md"
   ]
 }

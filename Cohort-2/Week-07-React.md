@@ -31,7 +31,7 @@ Now if there is a state which is used by C4 & C3, so we need to store it in C1, 
 
 ![[Pasted image 20260111101346.png]]
 ![[Pasted image 20260111101502.png]]
-If we are using the context api, we are pushing our state management outside the *core react components*. It means it is still doing prop drilling but internally, not in code/core components.
+If we are using the context api, we are pushing our state management outside the *core react components*. It means it is still doing prop drilling but internally, not in code/core components. So we might think like state has been teleported from C1 to C4 so C2 won't re-render, but thats not the case because as we said Context API is only for making code more cleaner & well structured, it has nothing to with re-rendering or performance. For optimize re-rendering & performance we use *State Management tools*.
 ![[Pasted image 20260111101849.png]]
 e.g. Modified above code a bit (added one extra component)
 ![[Pasted image 20260111103927.png]]
@@ -42,3 +42,41 @@ e.g. Modified above code a bit (added one extra component)
 ![[Pasted image 20260111103329.png]]
 - Now use/access that value using *useContext* hook
 ![[Pasted image 20260111103545.png]]
+## State Management
+![[Pasted image 20260111125520.png]]
+#### State Management using Recoil
+![[Pasted image 20260111125644.png]]
+![[Pasted image 20260111130005.png]]
+![[Pasted image 20260111130107.png]]
+The benefit of this is, we can define the *atom (state)* outside the components, like in a different file, and whichever component need that state can directly access to it, and only that component gets re-rendered.
+![[Pasted image 20260111130514.png]]
+like here, C3 & C4 can directly access the count state variable, only C3 & C4 will re-renders.
+![[Pasted image 20260111130722.png]]
+![[Pasted image 20260111131636.png]]
+docs: https://recoiljs.org/docs/introduction/getting-started
+![[Pasted image 20260111131921.png]]
+**key**: unique key uniquely identify the atom
+**default**: default value of the variable
+![[Pasted image 20260111132714.png]]
+So we use *useState* hook to define state, and what does state has, it has two things, one is the value and other is function to set that value. 
+e.g. `const [stateValue, setStateValue] = useState(initialValue);` 
+So *recoil* basically gives us three things
+1. **useRecoilState(atomName)**: basically same as useState, gives both value and set function
+2. **useRecoilValue(atomName)**: gives only value (*stateValue*)
+3. **useSetRecoilState(atomName)**: gives set function (*setStateValue*)
+![[Pasted image 20260111133542.png]]
+and only if we want value then:
+![[Pasted image 20260111133414.png]]
+Now finally like Context API, we need to wrap the components which going to use recoil inside *RecoilRoot* component
+![[Pasted image 20260111134154.png]]
+- Using *recoil* means its not like you should never use *useState*, *recoil* is used for **global** level states ( global state means states which creates your app ), if you know a state variable **needs to be created and used inside same component** then it makes no sense to create an *atom* for it. e.g. the input component below, it just reads the value inside the input box
+![[Pasted image 20260111134819.png]]
+Now if you see below code:
+![[Pasted image 20260111140019.png]]
+Here we took both *count & setCount*. But as *count* is getting updated in *Buttons* component, it will re-render the *Buttons* too (can check console log ), so we can modify the code like below:
+![[Pasted image 20260111135919.png]]
+Here we only took the *setCount* and when we are calling the *setCount* by passing the arrow function, it is automatically getting *count* and as *count* is not getting updated in *Buttons* component, they won't re-render.
+**Selector**:
+![[Pasted image 20260114212545.png]]
+read selector documentation https://recoiljs.org/docs/basic-tutorial/selectors
+1:02:15
